@@ -136,3 +136,33 @@ body {
     color: black;
     border: none;
 }
+@media screen and (max-width: 600px) {
+
+    .container {
+        padding: 20px;
+    }
+
+    .section-one__name {
+        font-size: 40px;
+    }
+
+    .section-one__role {
+        font-size: 20px;
+    }
+
+    .section-three,
+    .section-four {
+        width: 100%;
+        display: block;
+        box-sizing: border-box;
+        margin-top: 20px;
+    }
+
+    .section-four {
+        height: auto;
+    }
+
+    .section-five {
+        word-wrap: break-word;
+    }
+}
